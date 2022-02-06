@@ -1,9 +1,3 @@
-#github ajiahamed
-Host github.com
-	HostName github.com
-	user git
-	IdentityFile ~/.ssh/github_mob
-
 Host rpiz
 	HostName rpiz01.domain.name
 	user pi
@@ -11,5 +5,10 @@ Host rpiz
 
 Host rpi3
 	HostName rpi3srv01.domain.name
+	user pi
+	IdentityFile ~/.ssh/mob
+
+Host rpi2
+	HostName rpi201.domain.name
 	user pi
 	IdentityFile ~/.ssh/mob
