@@ -19,7 +19,7 @@ BG_MAGENTA="\[\e[45m\]"
 
 PS1="\n ${FG_BLUE}╭─" # begin arrow to prompt
 PS1+="${FG_MAGENTA}" # begin USERNAME container
-PS1+="${BG_MAGENTA}${FG_CYAN}${FMT_BOLD}  " # print OS icon
+PS1+="${BG_MAGENTA}${FG_CYAN}${FMT_BOLD}  " # print OS icon
 PS1+="${FG_WHITE}\u" # print username
 PS1+="${FMT_UNBOLD} ${FG_MAGENTA}${BG_BLUE} " # end USERNAME container / begin
 #DIRECTORY container
